@@ -1,0 +1,11 @@
+C:\Chava\DemosXamarin\LoginDemo\LoginDemo\LoginDemo.MobileAppService\bin\Debug\netcoreapp2.0\LoginDemo.MobileAppService.deps.json
+C:\Chava\DemosXamarin\LoginDemo\LoginDemo\LoginDemo.MobileAppService\bin\Debug\netcoreapp2.0\LoginDemo.MobileAppService.runtimeconfig.json
+C:\Chava\DemosXamarin\LoginDemo\LoginDemo\LoginDemo.MobileAppService\bin\Debug\netcoreapp2.0\LoginDemo.MobileAppService.runtimeconfig.dev.json
+C:\Chava\DemosXamarin\LoginDemo\LoginDemo\LoginDemo.MobileAppService\bin\Debug\netcoreapp2.0\LoginDemo.MobileAppService.dll
+C:\Chava\DemosXamarin\LoginDemo\LoginDemo\LoginDemo.MobileAppService\bin\Debug\netcoreapp2.0\LoginDemo.MobileAppService.pdb
+C:\Chava\DemosXamarin\LoginDemo\LoginDemo\LoginDemo.MobileAppService\obj\Debug\netcoreapp2.0\LoginDemo.MobileAppService.csprojAssemblyReference.cache
+C:\Chava\DemosXamarin\LoginDemo\LoginDemo\LoginDemo.MobileAppService\obj\Debug\netcoreapp2.0\LoginDemo.MobileAppService.csproj.CoreCompileInputs.cache
+C:\Chava\DemosXamarin\LoginDemo\LoginDemo\LoginDemo.MobileAppService\obj\Debug\netcoreapp2.0\LoginDemo.MobileAppService.AssemblyInfoInputs.cache
+C:\Chava\DemosXamarin\LoginDemo\LoginDemo\LoginDemo.MobileAppService\obj\Debug\netcoreapp2.0\LoginDemo.MobileAppService.AssemblyInfo.cs
+C:\Chava\DemosXamarin\LoginDemo\LoginDemo\LoginDemo.MobileAppService\obj\Debug\netcoreapp2.0\LoginDemo.MobileAppService.dll
+C:\Chava\DemosXamarin\LoginDemo\LoginDemo\LoginDemo.MobileAppService\obj\Debug\netcoreapp2.0\LoginDemo.MobileAppService.pdb

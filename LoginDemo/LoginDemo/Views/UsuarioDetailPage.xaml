@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LoginDemo.Views.UsuarioDetailPage"         
+             Title="{Binding Title}"
+             xmlns:Validators="clr-namespace:LoginDemo.Services.Validations"
+             xmlns:Behaviors="clr-namespace:LoginDemo.Behaviors">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Cancelar" Clicked="Cancel_Clicked" />
+        <ToolbarItem Text="Modificar" Clicked="Update_OnClicked" />
+        <ToolbarItem Text="Eliminar" Clicked="Delete_OnClicked" />
+    </ContentPage.ToolbarItems>
+    <ScrollView>
+        <StackLayout Spacing="20" Padding="15">
+            <Label Text="Usuario:" FontSize="Medium" />
+            <Entry Text="{Binding Item.Usuario.Usuario,Mode=TwoWay}" FontSize="Small">
+                <Entry.Behaviors>
+                    <Behaviors:ValidationBehavior PropertyName="Text">
+                        <Behaviors:ValidationBehavior.Validators>
+                            <Validators:RequiredValidator />
+                            <Validators:FormatValidator
+                            Message="Verifique que el usuario tenga de 7 a 25 caracteres y/o solo contenga minusculas, numeros y los suguientes caracteres - _\n" 
+                            Format="^[a-z0-9_-]{7,25}$" />
+                        </Behaviors:ValidationBehavior.Validators>
+                    </Behaviors:ValidationBehavior>
+                </Entry.Behaviors>
+            </Entry>
+            <Label Text="Correo:" FontSize="Medium" />
+            <Entry Text="{Binding Item.Usuario.Correo,Mode=TwoWay}" FontSize="Small">
+                <Entry.Behaviors>
+                    <Behaviors:ValidationBehavior PropertyName="Text">
+                        <Behaviors:ValidationBehavior.Validators>
+                            <Validators:RequiredValidator />
+                            <Validators:FormatValidator
+                            Message="Verifique que el correo tenga de 15 a 50 caracteres y/o que cumpla con el formato de correo." 
+                            Format="^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$" />
+                        </Behaviors:ValidationBehavior.Validators>
+                    </Behaviors:ValidationBehavior>
+                </Entry.Behaviors>
+            </Entry>
+            <Label Text="Contraseña:" FontSize="Medium" />
+            <Entry Text="{Binding Item.Usuario.Contrasena,Mode=TwoWay}" FontSize="Small" IsPassword="True">
+                <Entry.Behaviors>
+                    <Behaviors:ValidationBehavior PropertyName="Text">
+                        <Behaviors:ValidationBehavior.Validators>
+                            <Validators:RequiredValidator />
+                            <Validators:FormatValidator
+                            Message="Verifique que la contraseña tenga de 10 a 25 caracteres y/o que contega al menos una mayúscula, minúscula, simbolo y un número." 
+                            Format="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[^\da-zA-Z]).{10,25}$" />
+                        </Behaviors:ValidationBehavior.Validators>
+                    </Behaviors:ValidationBehavior>
+                </Entry.Behaviors>
+            </Entry>
+            <Label Text="Repetir Contraseña" FontSize="Medium" />
+            <Entry Text="{Binding Item.Repetir}" FontSize="Small" Margin="0" IsPassword="True" >
+                <Entry.Behaviors>
+                    <Behaviors:ValidationBehavior PropertyName="Text">
+                        <Behaviors:ValidationBehavior.Validators>
+                            <Validators:RequiredValidator />
+                            <Validators:FormatValidator
+                                Message="Verifique que la contraseña tenga de 10 a 25 caracteres y/o que contega al menos una mayúscula, minúscula, simbolo y un número." 
+                                Format="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[^\da-zA-Z]).{10,25}$" />
+                        </Behaviors:ValidationBehavior.Validators>
+                    </Behaviors:ValidationBehavior>
+                </Entry.Behaviors>
+            </Entry>
+            <Label Text="Sexo" FontSize="Medium" />
+            <Picker ItemsSource="{Binding ListaSexo, Mode=TwoWay}" SelectedItem="{Binding Item.Usuario.Sexo, Mode=TwoWay}"/>
+            <Label Text="Estatus:" FontSize="Medium" />
+            <Switch IsToggled="{Binding Item.Usuario.Estatus,Mode=TwoWay}" HorizontalOptions="Start"/>
+            <Label Text="Fecha de Creación:" FontSize="Medium" />
+            <Label Text="{Binding Item.Usuario.FechaCreacion,Mode=TwoWay}" FontSize="Small"/>
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

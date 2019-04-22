@@ -1,0 +1,12 @@
+C:\Chava\DemosXamarin\LoginDemo\LoginDemo.BIZ\bin\Release\netstandard2.0\LoginDemo.BIZ.deps.json
+C:\Chava\DemosXamarin\LoginDemo\LoginDemo.BIZ\bin\Release\netstandard2.0\LoginDemo.BIZ.dll
+C:\Chava\DemosXamarin\LoginDemo\LoginDemo.BIZ\bin\Release\netstandard2.0\LoginDemo.BIZ.pdb
+C:\Chava\DemosXamarin\LoginDemo\LoginDemo.BIZ\bin\Release\netstandard2.0\LoginDemo.Services.dll
+C:\Chava\DemosXamarin\LoginDemo\LoginDemo.BIZ\bin\Release\netstandard2.0\LoginDemo.Services.pdb
+C:\Chava\DemosXamarin\LoginDemo\LoginDemo.BIZ\obj\Release\netstandard2.0\LoginDemo.BIZ.csprojAssemblyReference.cache
+C:\Chava\DemosXamarin\LoginDemo\LoginDemo.BIZ\obj\Release\netstandard2.0\LoginDemo.BIZ.csproj.CoreCompileInputs.cache
+C:\Chava\DemosXamarin\LoginDemo\LoginDemo.BIZ\obj\Release\netstandard2.0\LoginDemo.BIZ.AssemblyInfoInputs.cache
+C:\Chava\DemosXamarin\LoginDemo\LoginDemo.BIZ\obj\Release\netstandard2.0\LoginDemo.BIZ.AssemblyInfo.cs
+C:\Chava\DemosXamarin\LoginDemo\LoginDemo.BIZ\obj\Release\netstandard2.0\LoginDemo.BIZ.csproj.CopyComplete
+C:\Chava\DemosXamarin\LoginDemo\LoginDemo.BIZ\obj\Release\netstandard2.0\LoginDemo.BIZ.dll
+C:\Chava\DemosXamarin\LoginDemo\LoginDemo.BIZ\obj\Release\netstandard2.0\LoginDemo.BIZ.pdb

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:Validators="clr-namespace:LoginDemo.Services.Validations"
+             xmlns:Behaviors="clr-namespace:LoginDemo.Behaviors"
+             x:Class="LoginDemo.Views.LoginPage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Primary">#2196F3</Color>
+            <Color x:Key="Accent">#96d1ff</Color>
+            <Color x:Key="LightTextColor">#999999</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Registrarse" Clicked="AddItem_Clicked"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="StartAndExpand">
+            <Label Text="Usuario" />
+            <Entry Text="{Binding Usuario, Mode=TwoWay}" IsEnabled="{Binding Habilitar, Mode=TwoWay}">
+                <Entry.Behaviors>
+                    <Behaviors:ValidationBehavior PropertyName="Text">
+                        <Behaviors:ValidationBehavior.Validators>
+                            <Validators:RequiredValidator />
+                            <Validators:FormatValidator
+                                Message="Verifique que el usuario tenga de 7 a 25 caracteres y/o solo contenga minusculas, numeros y los suguientes caracteres - _\n" 
+                                Format="^[a-z0-9_-]{7,25}$" />
+                        </Behaviors:ValidationBehavior.Validators>
+                    </Behaviors:ValidationBehavior>
+                </Entry.Behaviors>
+            </Entry>
+            <Label Text="Password" />
+            <Entry IsPassword="True" Text="{Binding Contrasena, Mode=TwoWay}" IsEnabled="{Binding Habilitar, Mode=TwoWay}">
+                <Entry.Behaviors>
+                    <Behaviors:ValidationBehavior PropertyName="Text">
+                        <Behaviors:ValidationBehavior.Validators>
+                            <Validators:RequiredValidator />
+                            <Validators:FormatValidator
+                                Message="Verifique que la contraseña tenga de 10 a 25 caracteres y/o que contega al menos una mayúscula, minúscula, simbolo y un número." 
+                                Format="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[^\da-zA-Z]).{10,25}$" />
+                        </Behaviors:ValidationBehavior.Validators>
+                    </Behaviors:ValidationBehavior>
+                </Entry.Behaviors>
+            </Entry>
+            <Button Text="Login" Clicked="Login_OnClicked" BackgroundColor="{StaticResource Primary}"
+                    TextColor="White" IsEnabled="{Binding Habilitar, Mode=TwoWay}"/>
+            <Label Text="{Binding Message, Mode=TwoWay}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.2.4" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="4.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\LoginDemo.BIZ\LoginDemo.BIZ.csproj" />
+    <ProjectReference Include="..\..\LoginDemo.DAL\LoginDemo.DAL.csproj" />
+    <ProjectReference Include="..\..\LoginDemo.DTOs\LoginDemo.DTOs.csproj" />
+  </ItemGroup>
+
+</Project>

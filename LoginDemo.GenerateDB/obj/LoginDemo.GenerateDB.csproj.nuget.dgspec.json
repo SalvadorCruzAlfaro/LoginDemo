@@ -1,0 +1,319 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Chava\\DemosXamarin\\LoginDemo\\LoginDemo.GenerateDB\\LoginDemo.GenerateDB.csproj": {}
+  },
+  "projects": {
+    "C:\\Chava\\DemosXamarin\\LoginDemo\\LoginDemo.BIZ\\LoginDemo.BIZ.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Chava\\DemosXamarin\\LoginDemo\\LoginDemo.BIZ\\LoginDemo.BIZ.csproj",
+        "projectName": "LoginDemo.BIZ",
+        "projectPath": "C:\\Chava\\DemosXamarin\\LoginDemo\\LoginDemo.BIZ\\LoginDemo.BIZ.csproj",
+        "packagesPath": "C:\\Users\\isc_s\\.nuget\\packages\\",
+        "outputPath": "C:\\Chava\\DemosXamarin\\LoginDemo\\LoginDemo.BIZ\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\isc_s\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\2018\\DLLs\\NuGetPackages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Chava\\DemosXamarin\\LoginDemo\\LoginDemo.Services\\LoginDemo.Services.csproj": {
+                "projectPath": "C:\\Chava\\DemosXamarin\\LoginDemo\\LoginDemo.Services\\LoginDemo.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Chava\\DemosXamarin\\LoginDemo\\LoginDemo.DAL\\LoginDemo.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Chava\\DemosXamarin\\LoginDemo\\LoginDemo.DAL\\LoginDemo.DAL.csproj",
+        "projectName": "LoginDemo.DAL",
+        "projectPath": "C:\\Chava\\DemosXamarin\\LoginDemo\\LoginDemo.DAL\\LoginDemo.DAL.csproj",
+        "packagesPath": "C:\\Users\\isc_s\\.nuget\\packages\\",
+        "outputPath": "C:\\Chava\\DemosXamarin\\LoginDemo\\LoginDemo.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\isc_s\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\2018\\DLLs\\NuGetPackages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Chava\\DemosXamarin\\LoginDemo\\LoginDemo.DTOs\\LoginDemo.DTOs.csproj": {
+                "projectPath": "C:\\Chava\\DemosXamarin\\LoginDemo\\LoginDemo.DTOs\\LoginDemo.DTOs.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Chava\\DemosXamarin\\LoginDemo\\LoginDemo.DTOs\\LoginDemo.DTOs.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Chava\\DemosXamarin\\LoginDemo\\LoginDemo.DTOs\\LoginDemo.DTOs.csproj",
+        "projectName": "LoginDemo.DTOs",
+        "projectPath": "C:\\Chava\\DemosXamarin\\LoginDemo\\LoginDemo.DTOs\\LoginDemo.DTOs.csproj",
+        "packagesPath": "C:\\Users\\isc_s\\.nuget\\packages\\",
+        "outputPath": "C:\\Chava\\DemosXamarin\\LoginDemo\\LoginDemo.DTOs\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\isc_s\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\2018\\DLLs\\NuGetPackages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Chava\\DemosXamarin\\LoginDemo\\LoginDemo.GenerateDB\\LoginDemo.GenerateDB.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Chava\\DemosXamarin\\LoginDemo\\LoginDemo.GenerateDB\\LoginDemo.GenerateDB.csproj",
+        "projectName": "LoginDemo.GenerateDB",
+        "projectPath": "C:\\Chava\\DemosXamarin\\LoginDemo\\LoginDemo.GenerateDB\\LoginDemo.GenerateDB.csproj",
+        "packagesPath": "C:\\Users\\isc_s\\.nuget\\packages\\",
+        "outputPath": "C:\\Chava\\DemosXamarin\\LoginDemo\\LoginDemo.GenerateDB\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\isc_s\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\2018\\DLLs\\NuGetPackages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Chava\\DemosXamarin\\LoginDemo\\LoginDemo.BIZ\\LoginDemo.BIZ.csproj": {
+                "projectPath": "C:\\Chava\\DemosXamarin\\LoginDemo\\LoginDemo.BIZ\\LoginDemo.BIZ.csproj"
+              },
+              "C:\\Chava\\DemosXamarin\\LoginDemo\\LoginDemo.DAL\\LoginDemo.DAL.csproj": {
+                "projectPath": "C:\\Chava\\DemosXamarin\\LoginDemo\\LoginDemo.DAL\\LoginDemo.DAL.csproj"
+              },
+              "C:\\Chava\\DemosXamarin\\LoginDemo\\LoginDemo.DTOs\\LoginDemo.DTOs.csproj": {
+                "projectPath": "C:\\Chava\\DemosXamarin\\LoginDemo\\LoginDemo.DTOs\\LoginDemo.DTOs.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Chava\\DemosXamarin\\LoginDemo\\LoginDemo.Services\\LoginDemo.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Chava\\DemosXamarin\\LoginDemo\\LoginDemo.Services\\LoginDemo.Services.csproj",
+        "projectName": "LoginDemo.Services",
+        "projectPath": "C:\\Chava\\DemosXamarin\\LoginDemo\\LoginDemo.Services\\LoginDemo.Services.csproj",
+        "packagesPath": "C:\\Users\\isc_s\\.nuget\\packages\\",
+        "outputPath": "C:\\Chava\\DemosXamarin\\LoginDemo\\LoginDemo.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\isc_s\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\2018\\DLLs\\NuGetPackages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

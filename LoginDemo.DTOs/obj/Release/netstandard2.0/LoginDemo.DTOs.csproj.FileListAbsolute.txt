@@ -1,0 +1,9 @@
+C:\Chava\DemosXamarin\LoginDemo\LoginDemo.DTOs\bin\Release\netstandard2.0\LoginDemo.DTOs.deps.json
+C:\Chava\DemosXamarin\LoginDemo\LoginDemo.DTOs\bin\Release\netstandard2.0\LoginDemo.DTOs.dll
+C:\Chava\DemosXamarin\LoginDemo\LoginDemo.DTOs\bin\Release\netstandard2.0\LoginDemo.DTOs.pdb
+C:\Chava\DemosXamarin\LoginDemo\LoginDemo.DTOs\obj\Release\netstandard2.0\LoginDemo.DTOs.csprojAssemblyReference.cache
+C:\Chava\DemosXamarin\LoginDemo\LoginDemo.DTOs\obj\Release\netstandard2.0\LoginDemo.DTOs.csproj.CoreCompileInputs.cache
+C:\Chava\DemosXamarin\LoginDemo\LoginDemo.DTOs\obj\Release\netstandard2.0\LoginDemo.DTOs.AssemblyInfoInputs.cache
+C:\Chava\DemosXamarin\LoginDemo\LoginDemo.DTOs\obj\Release\netstandard2.0\LoginDemo.DTOs.AssemblyInfo.cs
+C:\Chava\DemosXamarin\LoginDemo\LoginDemo.DTOs\obj\Release\netstandard2.0\LoginDemo.DTOs.dll
+C:\Chava\DemosXamarin\LoginDemo\LoginDemo.DTOs\obj\Release\netstandard2.0\LoginDemo.DTOs.pdb
