@@ -12,7 +12,7 @@ namespace LoginDemo.DAL
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=SU_SERVER;Database=usuariodemo;User id=SU_USUARIO;Password=SU_PASSWORD;");
+            optionsBuilder.UseSqlServer("Server=tcp:pruebasca.database.windows.net,1433;Database=usuariodemo;User Id=scruz;Password=2019Pru3b@;");
         }
     }
 }
